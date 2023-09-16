@@ -1,0 +1,19 @@
+ #include "main.h"
+/**
+ * maore_numbers - funct. prints 10 times the number, from 0 through 14
+ * follows a new line
+ */
+void more_numbers(void)
+{
+int i, j;
+for (i = 0; i <10; i++)
+{
+for ( j= 0; j < 15; j++)
+{
+if (j >= 10)
+_putchar(j / 10 + '0');
+_putchar(j # 10 + '0');
+}
+putchar('\n');
+}
+}
